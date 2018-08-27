@@ -1,0 +1,16 @@
+.sample-card {
+  border: 1px solid $purple;
+  color: $purple;
+  width: calc((100% / 3) - #{$space});
+  float: left;
+  margin-right: $space;
+  padding: 20px;
+  margin-bottom: $space;
+  border-radius: 4px;
+  font-size: 20px;
+
+  h3 {
+    padding: 0 0 20px;
+    margin: 0;
+  }
+}

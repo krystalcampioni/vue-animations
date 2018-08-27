@@ -1,0 +1,18 @@
+$black: black;
+$white: white;
+$blue: #0C2A46;
+$dark-blue: #060E1E;
+$purple: #6C5898;
+$light-purple: #8622DC;
+$dark-purple: #583390;
+$gray: #b5b9bd;
+$dark-gray: rgb(39, 40, 41);
+$aqua-green:  rgba(0, 255, 191, .8);
+$base-color: $aqua-green;
+
+$in-out-back: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+$background-gradient: linear-gradient(bottom, $blue, $dark-blue);
+$space: 30px;
+
+$title-font-size: 70px;
+$sidebar-width: ($title-font-size * 2);

@@ -1,0 +1,48 @@
+$grid-color: $blue;
+
+.chart {
+  width: 800px;
+  transform: scale(1, -1);
+
+  &__gradient {
+    stop:first-child {
+      stop-color: rgba($grid-color, 1),
+    }
+    stop:last-child {
+      stop-color: rgba($grid-color, 0),
+    }
+  }
+
+  &__text {
+    transform: scale(1, -1);
+    font-size: 5px;
+    transform-origin: center;
+    fill: rgba($white, .8);
+  }
+
+  &__lines {
+    stroke: $dark-purple;
+  }
+
+  &__dots {
+    fill: $light-purple;
+  }
+
+  &__ghost {
+    transform: scale(1, -1);
+    transform-origin: center;
+    stroke-width: .5;
+
+    &--lines {
+      stroke: rgba($aqua-green, .3);
+    }
+    &--dots {
+      fill: rgba($aqua-green, .3);
+    }
+  }
+
+  &__grid-baseline {
+    stroke: rgba($grid-color, 1)
+  }
+}
+
