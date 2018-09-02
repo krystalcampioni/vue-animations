@@ -1,6 +1,6 @@
 # Vue Animations Examples
 
-> A Vue.js project
+This repo contains the examples presented at Laracon EU 2018. You can find the slides here: https://krystalcampioni.github.io/vue-animations
 
 ## Build Setup
 
