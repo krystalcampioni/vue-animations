@@ -9,7 +9,7 @@ import CanvasExample from '@/components/CanvasExample'
 Vue.use(Router)
 
 const child = {
-  template: '<div class="foo">{{ this.$route.path.split("/")[2]}}</div>'
+  template: '<div class="foo">{{this.$route.params.child}}</div>'
 }
 
 export default new Router({
