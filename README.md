@@ -1,4 +1,5 @@
 # Vue Animations Examples
+![screenshot](https://github.com/krystalcampioni/vue-animations/blob/master/preview.png?raw=true)
 
 This repo contains the examples presented at Laracon EU 2018 and Code Talks 2018. You can find the slides here: https://krystalcampioni.github.io/vue-animations
 
